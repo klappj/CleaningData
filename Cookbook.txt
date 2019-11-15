@@ -1,0 +1,13 @@
+This document describes the data cleaning activity required by this programming process.
+
+Step 1. Install the dplyr and data.table packages in R: 
+	Tested with data.table version 1.12.6 and dplyr 0.8.3
+Step 2. Download the dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Step 3. Extract to the zip file to the folder directory
+	This dataset is already extracted into the gitub repository. The code will break if you do not extract into the root diretory
+Step 4. Run the run_analysis.R file
+
+	Results are stored in the run_data_summary file, using R's write.table command. The corresponding read.table command is best for reading it. 
+
+
+
